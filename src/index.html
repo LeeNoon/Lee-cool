@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <!-- <script src='/main.js'></script> -->
+</head>
+<script type="text/javascript">
+        //樱花
+         var system = {};
+         var p = navigator.platform;
+         system.win = p.indexOf("Win") == 0;
+         system.mac = p.indexOf("Mac") == 0;
+         system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+             if (system.win || system.mac || system.xll) {//如果是电脑
+     
+           $.getScript("https://amayaliu.cn/PersonalHabits/AmayaBlossoms.js");
+        } else { //如果是手机
+   
+       }
+    </script>
+<body>
+    <div id="app"></div>
+</body>
+</html>
